@@ -13,11 +13,16 @@
 
 使用全部代理类
 > proxy = AllProxy()
+
 > proxy.run("https://movie.douban.com") # https://movie.douban.com用于检测ip对目标网站的连通性和有效性(该ip是否被封)
+
 > proxy.links() # 全部有效的ip Link对象(host, port, schema, value)
 
 使用单个代理类
 > proxy = CNProxy()
+
 > proxy.run("https://movie.douban.com")
+
 > proxy.links()
+
 > proxy.schedule() # 定期更新 重新获取最新的ip
