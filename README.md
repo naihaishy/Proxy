@@ -17,7 +17,7 @@
 使用全部代理类
 > proxy = AllProxy()
 
-> proxy.run("https://movie.douban.com") # https://movie.douban.com用于检测ip对目标网站的连通性和有效性(该ip是否被封)
+> proxy.run("https://movie.douban.com") # 网址用于检测ip对目标网站的连通性和有效性(该ip是否被封)
 
 > proxy.links() # 全部有效的ip Link对象(host, port, schema, value)
 
