@@ -1,0 +1,4 @@
+joblib
+schedule
+beautifulsoup4
+requests
