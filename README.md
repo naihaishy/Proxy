@@ -1,6 +1,9 @@
 ## Python获取免费代理Ip
 
-### 从一些网站爬取免费代理
+并行处理 检测ip有效性 多个站点数据
+
+
+#### 从一些网站爬取免费代理
 * [https://cn-proxy.com/](https://cn-proxy.com/)
 
 * [http://ip.jiangxianli.com/](http://ip.jiangxianli.com/)
