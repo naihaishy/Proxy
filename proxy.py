@@ -203,7 +203,7 @@ class AllProxy(object):
 
         self.proxies.append(SanyiProxy())
         self.proxies.append(XiciProxy())
-        self.proxies.append(JiangXianLiProxy())
+        # self.proxies.append(JiangXianLiProxy())
         self.proxies.append(CNProxy())
 
     def run(self, target=None):
